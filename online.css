@@ -1,0 +1,32 @@
+
+
+
+body{
+	margin:0;
+	background:#F5F5F5;
+}
+
+
+
+
+
+
+
+
+.bs-example{
+        margin: 20px;
+        background-color: #ffbb99 ;
+    }
+    .navbar{
+        margin-bottom: 1rem;
+         background-color: #ffbb99 ;
+    }
+    .btn-outline-primary {
+    color:#000000;
+    border-color: white;
+    background-color: #A9A9A9
+
+ .active {
+color: rgba(0,0,0,.5);
+
+}
