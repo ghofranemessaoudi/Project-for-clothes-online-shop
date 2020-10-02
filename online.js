@@ -1,5 +1,5 @@
 
-var img1=$('<img class="img" src="makeup/hb.jpg>"')
+var img1=$('<img class="img" src="/makeup/hb.jpg>"')
 var img2 = $('<img class="img" src="makeup/hb1.jpg">')
 var img3 = $('<img class="img" src="makeup/hb2.jpg">')
 var img4 = $('<img class="img" src="makeup/hb3.jpg">')
@@ -82,36 +82,36 @@ var foundation = [foundationMac,foundationHb,foundationKj]
 var eyeShadow=[paletteHb,paletteKj] 
 
 $('#lipstick').click(function(){
-	('.container').html('')
+	$('.container').html('')
 	for (var i = 0 ; i<lipstick.length;i++){
-		('.container').append(lipstick)
+		$('.container').append(lipstick)
 	}
 })
 
 $('#mascara').click(function(){
-	('.container').html('')
+	$('.container').html('')
 	for (var i = 0 ; i<mascara.length;i++){
-		('.container').append(mascara)
+		$('.container').append(mascara)
 	}
 })
  
 $('#lashes').click(function(){
 	('.container').html('')
 	for (var i = 0 ; i<lashes.length;i++){
-		('.container').append(lashes)
+		$('.container').append(lashes)
 	}
 })
 $('#palette').click(function(){
-	('.container').html('')
+	$('.container').html('')
 	for (var i = 0 ; i<eyeShadow.length;i++){
-		('.container').append(eyeShadow)
+		$('.container').append(eyeShadow)
 	}
 })
 
 $('#foundation').click(function(){
-		('.container').html('')
+		$('.container').html('')
 	for (var i = 0 ; i<foundation.length;i++){
-		('.container').append(foundation)
+		$('.container').append(foundation)
 	}	
 })
 
@@ -172,7 +172,20 @@ else if (input==="hudaBeauty"|| input==="huda beauty"){
 }
 else if(input==='mac'||input==='Mac'){
 	$('.container').prepend(mac)
-}else{
+
+}else if(input === 'dress'|| input === 'dresses' ){
+	$('.container').prepend(dress)
+}
+else if(input === 'bags'|| input === 'bag' ){
+	$('.container').prepend(bagG)}
+
+else if(input === 'skirts'|| input === 'skirt' ){
+	$('.container').prepend(skirtT)
+}
+else if(input === 'shoes'){
+	$('.container').prepend(walk)
+}
+else{
 	return "YOUR SEARCH FOR " + " " +input + " " + " DID NOT YIELD ANY RESULTS."
 }
 })
