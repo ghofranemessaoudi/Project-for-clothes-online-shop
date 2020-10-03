@@ -82,16 +82,16 @@ function display(array,i=0){
 
 
 
- var found =''
-  $('#foundation').click(function(){
-  		$('.caro').hide()
-    $('#product').html('')
-    for(var i =0; i<foundation.length; i++){
-      found =  '<div class ="col-md-6"><img  class="img" src="'+foundation[i].url+'"><p class="text">'+ "Category :"+foundation[i].name + '<br>'+" Brand :" +foundation[i].brand+'<br>'+ "price:" +foundation[i].price+'</p>'+'<a class="add-cart" href ="#" >Buy</a></div>'      
-     $(found).appendTo($('#product'))
-    }
+//  var found =''
+//   $('#foundation').click(function(){
+//   		$('.caro').hide()
+//     $('#product').html('')
+//     for(var i =0; i<foundation.length; i++){
+//       found =  '<div class ="col-md-6"><img  class="img" src="'+foundation[i].url+'"><p class="text">'+ "Category :"+foundation[i].name + '<br>'+" Brand :" +foundation[i].brand+'<br>'+ "price:" +foundation[i].price+'</p>'+'<a class="add-cart" href ="#" >Buy</a></div>'      
+//      $(found).appendTo($('#product'))
+//     }
    
-});
+// });
 
  var masc=''
   $('#mascara').click(function(){
@@ -117,16 +117,16 @@ function display(array,i=0){
 });
 
  
- var lash=''
-  $('#lashes').click(function(){
-  		$('.caro').hide()
-    $('#product').html('')
-    for(var i =0; i<lashes.length; i++){
-      lash =   '<div class ="col-md-6"><img  class="img" src="'+lashes[i].url+'"><p>'+ "Category :"+lashes[i].name+ '<br>' +" Brand :" +lashes[i].brand+'<br>'+ "price:" +lashes[i].price+'</p>'+'<a class="add-cart" href ="#" id="Lashes" >Buy</a></div>'   
-     $(lash).appendTo($('#product'))
-    }
+//  var lash=''
+//   $('#lashes').click(function(){
+//   		$('.caro').hide()
+//     $('#product').html('')
+//     for(var i =0; i<lashes.length; i++){
+//       lash =   '<div class ="col-md-6"><img  class="img" src="'+lashes[i].url+'"><p>'+ "Category :"+lashes[i].name+ '<br>' +" Brand :" +lashes[i].brand+'<br>'+ "price:" +lashes[i].price+'</p>'+'<a class="add-cart" href ="#" id="Lashes" >Buy</a></div>'   
+//      $(lash).appendTo($('#product'))
+//     }
    
-});
+// });
 
 
 
@@ -181,17 +181,17 @@ var bags6= Bags( '$1000', 'Bottega Veneta','bag6.jpg')
   var wears = [wear1,wear2,wear3,wear4,wear5,wear6,wear7,wear8]
   var ski = [skirt1,skirt2,skirt3,skirt4,skirt5,skirt6,skirt7,skirt8]
   var show= [shoes1,shoes2,shoes3,shoes4,shoes5,shoes6,shoes7]
-  var dress =''
-  $('#dresses').click(function(){
-  	$('.caro').hide()
-    $('#product').html('')
-    for(var i =0; i<wears.length; i++){
-      dress =  '<div class="col-md-6"><img  class="img" src="'+wears[i].url+'"><p class="text">'+"Brand: "+wears[i].name+"<br>" +"Size :" +wears[i].size+'<br>'+ "Price:" +wears[i].price+'</p>'+'<a class="add-cart" href ="#" >Buy</a></div>'   
+//   var dress =''
+//   $('#dresses').click(function(){
+//   	$('.caro').hide()
+//     $('#product').html('')
+//     for(var i =0; i<wears.length; i++){
+//       dress =  '<div class="col-md-6"><img  class="img" src="'+wears[i].url+'"><p class="text">'+"Brand: "+wears[i].name+"<br>" +"Size :" +wears[i].size+'<br>'+ "Price:" +wears[i].price+'</p>'+'<a class="add-cart" href ="#" >Buy</a></div>'   
      
-     $(dress).appendTo($('#product'))
+//      $(dress).appendTo($('#product'))
    
-    }
-});
+//     }
+// });
 var  skirtT=''
   $('#skirt-top-set').click(function(){
   	$('.caro').hide()

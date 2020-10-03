@@ -47,7 +47,7 @@ var foundation=[foundation1,foundation2,foundation3,foundation4,foundation5,foun
       $('.caro').hide()
     $('#product').html('')
     for(var i =0; i<foundation.length; i++){
-      found =  '<div class ="col-md-6"><img  class="img" src="'+foundation[i].url+'"><p class="text">'+ "Category :"+foundation[i].name + '<br>'+" Brand :" +foundation[i].brand+'<br>'+ "price:" +foundation[i].price+'</p>'+"<span>"+lashes[i].price+'</span>'+'<button class="add-cart" id="Lashes'+i+'" onclick="caller(this.id)">Buy</button></div>'    
+      found =  '<div class ="col-md-6"><img  class="img" src="'+foundation[i].url+'"><p class="text">'+ "Category :"+foundation[i].name + '<br>'+" Brand :" +foundation[i].brand+'<br>'+ "price:" +foundation[i].price+'</p>'+"<span>"+foundation[i].price+'</span>'+'<button class="add-cart" id="Lashes'+i+'" onclick="caller(this.id)">Buy</button></div>'    
      $(found).appendTo($('#product'))
     }
 })
