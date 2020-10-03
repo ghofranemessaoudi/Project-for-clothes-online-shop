@@ -2,102 +2,90 @@
 <html> 
 <head>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Ever Brand</title>
-
-
- <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-
-
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="online.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Online shop</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	</head>
+  <link rel="stylesheet" type="text/css" href="online.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+  <link href = "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,700&display=swap"  rel="stylesheet">
+
+  </head>
 
 
 
 
 <body>
 
-<div>
-<nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #ffbb99 ;">
-        <a href="#" class="navbar-brand">EVER BRAND</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse9">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse9">
-            <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link active">Home</a>
-                <a  id= 'fashion' href="#" class="nav-item nav-link">Fashion</a>
-                <a  id = 'makeup'href="#" class="nav-item nav-link">Makeup</a>
-            </div>
 
-            <form class="form-inline ml-auto">
-                <input id="search"type="text" class="form-control mr-sm-2" placeholder="Search" >
-                <button  id="button"type="submit" class="btn btn-outline-primary">Search</button>
-            </form>
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <a class="navbar-brand" href="#">Ever-brand</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Makeup
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a  id ="eyeshadow" class="dropdown-item" href="#">eye shadow</a>
+          <a id ='foundation' class="dropdown-item" href="#">Foundation</a>
+         <a  id ='lashes'class= "dropdown-item" href="#">lashes</a>
+          <a id ='mascara' class="dropdown-item" href="#">Mascara</a>
+            <a id ="lipstick" class="dropdown-item" href="#">Lipstick</a>
         </div>
+      </li>
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Fashion
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a id="dresses"class="dropdown-item" href="#">dresses</a>
+          <a id="skirt-top-set"class="dropdown-item" href="#">skirt-top</a>
+          <a id="shows"class="dropdown-item" href="#">shoes</a>
+          <a id="bag"class="dropdown-item" href="#">bags</a>
+        </div>
+      </li>
 
-    </nav>
-</div>
+       <li class="nav-item dropdown">
+        <a class="nav-link " href="#" id="navbarDropdown2" role="button" >
+         Total <span id ='price'>0</span>
+        </a>
+      </li>
 
-<div class ="container"> 
-
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="home3.jpg" alt="Chania">
-      <div class="carousel-caption">
-        <h3></h3>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="home1.jpg" alt="Chicago">
-      <div class="carousel-caption">
-        <h3></h3>
-        <p></p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="home2.jpg" alt="New York">
-      <div class="carousel-caption">
-        <h3></h3>
-      </div>
-    </div>
+     
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input id="search"class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button  id="search1" class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
+</nav>
+
+<div class="caro">
 
 
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 
-    </div>
+<div class="container">
+  <div class="row" id ="product"></div>
+</div>
+<div class="homeAlone"></div>
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="lashes.js"></script>
+<script src="found.js"></script>
 <script src="online.js"></script>
 </body>
 </html>
